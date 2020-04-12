@@ -1,0 +1,24 @@
+{
+  "name": "frostchatserver",
+  "version": "1.0.0",
+  "description": "Server-side repository for FrostChat",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node app",
+    "dev" : "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayfrostjay/FrostChatServer.git"
+  },
+  "author": "Jayson Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayfrostjay/FrostChatServer/issues"
+  },
+  "homepage": "https://github.com/jayfrostjay/FrostChatServer#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
